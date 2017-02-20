@@ -17,7 +17,7 @@ public class Pen {
         usia[3] = 65;
         usia[4] = 22;
         
-        
+         
         System.out.println(usia[3]);
     }        
 }
