@@ -30,11 +30,9 @@ public class Pen {
         for (int i = 0; i < usia.length; i++) {
             totalUsia = totalUsia + usia[i];
         }       
-        rata2 = totalUsia / usia.length;
-        
+        rata2 = totalUsia / usia.length;        
         //tampilkan nilai usia rata2
         System.out.println(String.valueOf(rata2));
-        
         
         
         //mencari nilai minimum
