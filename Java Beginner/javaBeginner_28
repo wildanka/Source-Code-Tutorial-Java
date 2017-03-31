@@ -1,0 +1,23 @@
+package youtube;
+
+import java.util.Random;
+import java.util.Scanner;
+
+
+/**
+ *
+ * @author DAN
+ */
+public class Pen {
+    public static void main(String args[]){
+        int usia[] = {5,65,70,23,21};
+        int total = 0;
+       
+        for (int x : usia) {
+            total += x; 
+            //total = total + x;
+        }
+        
+        System.out.println(total);        
+    }        
+}
